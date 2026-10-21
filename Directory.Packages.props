@@ -32,7 +32,7 @@
     <PackageVersion Include="System.Management" Version="10.0.13" />
     <PackageVersion Include="System.Management.Automation" Version="7.6.7" />
     <PackageVersion Include="System.ServiceProcess.ServiceController" Version="10.0.13" />
-    <PackageVersion Include="Scalar.AspNetCore" Version="2.18.0" />
+    <PackageVersion Include="Scalar.AspNetCore" Version="2.18.2" />
     <PackageVersion Include="Asp.Versioning.Http" Version="10.2.3" />
     <PackageVersion Include="Asp.Versioning.Mvc.ApiExplorer" Version="10.2.1" />
     <PackageVersion Include="Asp.Versioning.OpenApi" Version="10.2.3" />
