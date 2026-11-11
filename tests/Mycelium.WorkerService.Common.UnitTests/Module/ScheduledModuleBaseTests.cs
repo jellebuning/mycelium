@@ -34,7 +34,7 @@ public class ScheduledModuleBaseTests
         var module = new TestScheduledModule(NullLogger<TestScheduledModule>.Instance, config, runImmediately: true,
             _ => throw new InvalidOperationException("boom"));
 
-        Assert.DoesNotThrowAsync(async () => await module.StartAsync(new CancellationToken(canceled: true)));
+        await Assert.DoesNotThrowAsync(async () => await module.StartAsync(new CancellationToken(canceled: true)));
     }
 
     [Test]
